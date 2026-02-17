@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="/images/architecture/arch_v4_workshops.jpg" alt="Data Engineering Zoomcamp Overview">
+  <img width="100%" src="/architecture/arch_v4_workshops.jpg" alt="Data Engineering Zoomcamp Overview">
 </p>
 <h1 align="center">
     <strong>Data Engineering Zoomcamp: A Free 9-Week Course on Data Engineering Fundamentals</strong>
