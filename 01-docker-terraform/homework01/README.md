@@ -1,4 +1,4 @@
-## 📝 Homework
+## 📝 Homework Solution
 
 ### Question 1. Understanding Docker Images 
 > Q1: Run docker with the python:3.13 image. Use an entrypoint bash to interact with the container.
