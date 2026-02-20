@@ -1,23 +1,10 @@
 # Module 2 Homework Solution: Workflow Orchestration with Kestra
 
+See the [2026 cohort folder](../cohorts/2026/02-workflow-orchestration/homework.md)
+
 This homework focuses on workflow orchestration using Kestra and processing NYC taxi data to GCP (Cloud Storage & BigQuery).
 
 ---
-
-## 📋 Homework Summary - Answers
-
-| Question | Answer |
-|----------|--------|
-| Q1: Yellow taxi Dec 2020 file size | **128.3 MiB** |
-| Q2: Variable rendering (green, 2020-04) | **green_tripdata_2020-04.csv** |
-| Q3: Yellow taxi 2020 total rows | **24,648,499** |
-| Q4: Green taxi 2020 total rows | **1,734,051** |
-| Q5: Yellow taxi March 2021 rows | **1,925,152** |
-| Q6: Timezone configuration | **Add a `timezone` property set to `America/New_York` in the `Schedule` trigger configuration** |
-
----
-
-## Prerequisites
 
 Before starting the homework, ensure you have:
 
