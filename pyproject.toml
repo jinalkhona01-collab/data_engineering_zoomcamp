@@ -9,4 +9,5 @@ dependencies = []
 [tool.uv.workspace]
 members = [
     "01-docker-terraform/homework01",
+    "03-data-warehouse",
 ]

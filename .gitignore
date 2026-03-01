@@ -212,3 +212,7 @@ __marimo__/
 *.json
 
 *.env_encoded
+
+*.env
+*.parquet
+*.csv*
