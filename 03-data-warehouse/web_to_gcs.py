@@ -187,11 +187,5 @@ def web_to_gcs(year, service):
         upload_to_gcs_with_progress(BUCKET, object_name, parquet_file_name)
 
 
-# web_to_gcs("2019", "green")
-# web_to_gcs("2020", "green")
-# web_to_gcs(
- #   "2021", "green"
-#)  # will fail when reaching 08 (normal, file does not exists in github :)
-web_to_gcs("2019", "yellow")
-#web_to_gcs("2020", "yellow") 
-#web_to_gcs("2021", "yellow") # will fail when reaching 08 (normal, file does not exists in github :)
+
+web_to_gcs("2020", "green") 
