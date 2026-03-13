@@ -3,7 +3,7 @@ sources:
     description: Raw taxi trip data from NYC TLC
     database: |
       {%- if target.type == 'bigquery' -%}
-        {{ env_var('GCP_PROJECT_ID', 'dtc-de-course-487612') }}
+        {{ env_var('GCP_PROJECT_ID', 'your_project_id') }}
       {%- else -%}
         taxi_rides_ny
       {%- endif -%}
