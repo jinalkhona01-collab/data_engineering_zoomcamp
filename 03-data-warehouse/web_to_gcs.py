@@ -64,7 +64,9 @@ def csv_to_parquet_with_progress(
         "VendorID": "Int64",
         "RatecodeID": "Int64",
         "PULocationID": "Int64",
+        "PUlocationID": "Int64",
         "DOLocationID": "Int64",
+        "DOlocationID": "Int64",
         "passenger_count": "Int64",
         "payment_type": "Int64",
         "trip_type": "Int64",  # only in green but ignored if missing column
@@ -83,8 +85,12 @@ def csv_to_parquet_with_progress(
 
     if service_color == "yellow":
         parse_dates = ["tpep_pickup_datetime", "tpep_dropoff_datetime"]
-    else:
+    elif service_color == "green":
         parse_dates = ["lpep_pickup_datetime", "lpep_dropoff_datetime"]
+    elif service_color == "fhv":
+        parse_dates = ["pickup_datetime", "dropOff_datetime"]
+    else:
+        parse_dates = []
 
     reader = pd.read_csv(
         csv_path,
@@ -188,4 +194,4 @@ def web_to_gcs(year, service):
 
 
 
-web_to_gcs("2020", "green") 
+web_to_gcs("2019", "fhv") 
